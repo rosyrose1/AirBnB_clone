@@ -95,4 +95,29 @@ create <class>
 ```bash
 show <class> <id>
 ```
+```bash
+(hbnb) show BaseModel 6cfb47c4-a434-4da7-ac03-2122624c3762
+[BaseModel] (a) [BaseModel] (6cfb47c4-a434-4da7-ac03-2122624c3762) {'id': '6cfb47c4-a434-4da7-ac03-2122624c3762', 'created_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571360), 'updated_at': datetime.datetime(2021, 11, 14, 3, 28, 45, 571389)}
+(hbnb)
+```
+
+* Destroy
+
+> *Deletes an instance of a given class with a given ID.*
+> *Update the file.json*
+
+```bash
+(hbnb) create User
+0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+(hbnb) destroy User 0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+(hbnb) show User 0c98d2b8-7ffa-42b7-8009-d9d54b69a472
+** no instance found **
+(hbnb)
+```
+
+* all
+
+> *Prints all string representation of all instances of a given class.*
+> *If no class is passed, all classes are printed.*
+
 
