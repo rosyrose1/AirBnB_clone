@@ -4,7 +4,7 @@
 ## Table of contents
 
 * [Overview](#Overview)
-* [Command Interpreter](#Command Interpreter)
+* [Console](#Console)
 * [Testing](#Testing)
 * [Usage](#Usage)
 * [Examples](#Examples)
@@ -15,7 +15,7 @@ This project is a simplified version of the popular accommodation booking platfo
 
 This project is the first step towards building our first full application:the **AirBnB clone**.
 
-## Command Interpreter
+## Console
 
 The console (command interpreter) is a python script that provides a command-line interface (CLI) to interact with the **AirBnB clone** project. In this project the console will perform the following:
 * create a new object
